@@ -225,3 +225,84 @@ hr {
 .display-none {
   display: none;
 }
+
+@media (max-width: 680px) {
+  .product-container {
+    height: 100%;
+  }
+
+  .product-show {
+    max-width: 620px;
+    margin: 20px;
+  }
+
+  .product-not-available {
+    max-width: 100%;
+    min-width: 100%;
+    height: 100vh;
+    background-size: 340px;
+  }
+
+  .txt-not {
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+  }
+
+  .btn-not-available {
+    width: 200px;
+    height: 32px;
+    font-size: 18px;
+  }
+
+  /* Available */
+  .product-available {
+    height: 525px;
+    margin-top: 20px;
+    display: block;
+    overflow-y: scroll;
+  }
+
+  .product-left-image {
+    text-align: center;
+    margin: 0 20px;
+  }
+
+  .product-img {
+    width: 200px;
+    height: 283px;
+    margin-bottom: 20px;
+  }
+
+  .product-info {
+    display: block;
+  }
+
+  .product-rate {
+    float: left;
+    margin: 10px 0 10px 0;
+  }
+
+  .product-desc {
+    margin-bottom: 80px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .btn-container {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  hr {
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .bottom {
+    position: relative;
+  }
+}
